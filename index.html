@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Bootstraps Css file -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- custom css file -->
+    <link rel="stylesheet" href="./CSS/style.css">
+    <!-- custom responsiveness -->
+    <link rel="stylesheet" href="./CSS/responsiveness.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
+    <!-- Header file -->
+    <header class="header_wrapper">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <p class="navbar-brand" href="#">My Port
+                    <span class="halfpart">folio</span>
+                    <img class="image" src="./image/butterflies.png" alt="Error loading">
+                </p>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item ">
+                            <a class="nav-link navs active mx-4 text-light" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-4 text-light navs" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navs mx-4 text-light" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navs mx-4 text-light" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navs mx-4 text-light" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="main-btn text-uppercase mx-4 text-light" href="#contact">Hire</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- starting first section -->
+    <section class="first-section mt-lg-0 mt-5" id="home">
+        <div class="container">
+            <div class="row justify-content-between align-items-center text-lg-left text-center">
+                <div class="col-lg-6 text-white">
+                    <p class="head">Hello, my name is</p>
+                    <h1 class="font">Anusha Shrestha
+                        <div class="par mb-4">Web designer</div>
+                    </h1>
+                    <p id="para2 text-lg-left text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, ipsum. Cumque et
+                        perferendis voluptate aspernatur similique exercitationem numquam modi nisi! <p>Let's do coding together</p></p>
+                        <p>Tech Ethusiatic|Coder|Peace Lover</p>
+                    <div class="row">
+                        <div class="col-12 my-3 mb-lg-0">
+                            <button class="text-light btn px-5 font-weight-bold mb-3 main-btn">Download CV</button>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-lg-0 mt-sm-5">
+                    <img class="img-fluid" src="./image/background.jpg" alt="Error loading image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- starting second-section -->
+    <section class="second-section" id="about">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-5 mb-5 mb-lg-0">
+                    <img class="img-fluid img1" src="./image/skills.png" alt="Error loading image">
+                </div>
+                <div class="col-lg-7 ps-lg-5 text-lg-start text-center text-light ml-5">
+                    <p class="subtitle font-weight-bold">My About Details</p>
+                    <h1>About Me</h1>
+                    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam obcaecati error
+                        saepe vero
+                        provident rem ipsum ipsam maiores, sint nemo a aperiam quaerat facere cupiditate illo vitae
+                        laudantium laboriosam nihil ab consectetur esse? Obcaecati soluta facilis minus, repellendus est
+                        qui, laudantium nulla ipsa, deleniti eligendi fugiat nobis fugit ratione quaerat!</p>
+                    <ul class="nav nav-pills mb-3 justify-content-center justify-content-lg-between" id="pills-tab"
+                        role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-skills-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-skills" type="button" role="tab" aria-controls="pills-skills"
+                                aria-selected="true">My skills</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-experience-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-experience" type="button" role="tab"
+                                aria-controls="pills-experience" aria-selected="false">Experience</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-education-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-education" type="button" role="tab"
+                                aria-controls="pills-education" aria-selected="false">Education</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show" id="pills-skills" role="tabpanel"
+                            aria-labelledby="pills-skills-tab">
+                            <div class="single-progress">
+                                <h6>C program</h6>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 30%" aria-valuenow="25"
+                                        aria-valuemin="0" aria-valuemax="95"></div>
+
+                                </div>
+                                <span class="label">30%</span>
+                            </div>
+                            <div class="single-progress">
+                                <h6>C++ program</h6>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="25"
+                                        aria-valuemin="0" aria-valuemax="95"></div>
+
+                                </div>
+                                <span class="label">50%</span>
+                            </div>
+                            <div class="single-progress">
+                                <h6>HTML</h6>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="25"
+                                        aria-valuemin="0" aria-valuemax="95"></div>
+
+                                </div>
+                                <span class="label">75%</span>
+                            </div>
+                            <div class="single-progress">
+                                <h6>CSS (Bootstraps)</h6>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="25"
+                                        aria-valuemin="0" aria-valuemax="95"></div>
+
+                                </div>
+                                <span class="label">75%</span>
+                            </div>
+                            <div class="single-progress">
+                                <h6>Javascript</h6>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25"
+                                        aria-valuemin="0" aria-valuemax="95"></div>
+
+                                </div>
+                                <span class="label">25%</span>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-experience" role="tabpanel"
+                            aria-labelledby="pills-experience-tab">
+                            <div class="text-center pt-4">
+                                <h3>Some of my experience</h3>
+                                <p class="pt-3">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque distinctio
+                                    reiciendis facere mollitia earum cupiditate. Similique ducimus quos sit aliquam
+                                    incidunt iste aperiam autem magnam eveniet quisquam! Exercitationem voluptatum
+                                    ratione ea. Laudantium iure ipsa deserunt nulla incidunt optio, et architecto ad,
+                                    dignissimos quam tenetur nam quasi dolore culpa corrupti inventore id fuga quaerat
+                                    dolor minus. Aspernatur nam ex ullam beatae magni laboriosam, nobis esse, ipsam
+                                    praesentium repellat voluptatum facere modi?</p>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-education" role="tabpanel"
+                            aria-labelledby="pills-education-tab">
+                            <div class="text-start pt-5">
+                                <h3>Bachelor running</h3>
+                                <p>Kathmandu College of Technology</p>
+                                <h3>+2 Level</h3>
+                                <p>DAV College</p>
+                                <h3>High School</h3>
+                                <p>Mount View School</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ending second section -->
+
+    <!-- starting third-section -->
+    <div class="third-section mt-lg-5 mt-sm-4 align-items-center" id="services">
+        <div class="container">
+            <div class="row justify-content-between align-item-center">
+                <div class="col-sm-12 text-center ">
+                    <p class="subtitle font-weight-bold">What I can do for you</p>
+                    <h1 class="text-light">Some of My Services</h1>
+                    <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.Voluptatum officia, nemo
+                        <br class="d-none d-md-block">laboriosam ullam quia consectetur.
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-3">
+                        <div class="card">
+                            <div class="card-body text-md-start text-center text-light bg-dark">
+                                <img class="img-fluid h-25 w-25" src="./image/programmer.png" class="card-img-top"
+                                    alt="Programmer">
+                                <h3 class="font-weight-bold">Website Designing</h3>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
+                                    ducimus?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-3">
+                        <div class="card">
+                            <div class="card-body text-md-start text-center text-light bg-dark">
+                                <img class="img-fluid h-25 w-25" src="./image/television.png" class="card-img-top"
+                                    alt="Programmer">
+                                <h3 class="font-weight-bold">Website Designing</h3>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
+                                    ducimus?
+                                </p>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-3">
+                        <div class="card">
+                            <div class="card-body text-md-start text-center text-light bg-dark">
+                                <img class="img-fluid h-25 w-25" src="./image/wifi.png" class="card-img-top"
+                                    alt="Programmer">
+                                <h3 class="font-weight-bold">Website Designing</h3>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Tempore, ducimus?
+                                </p>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ending third-section -->
+
+                <!-- starting fourth-section -->
+                <!-- <div class="fourth-section" id="Portfolio">
+                    <div class="row justify-content-between align-item-center">
+                        <div class="col-lg-12">
+                            <h1>Porfolio</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus vero sed asperiores consequuntur quidem in odio, alias, voluptatem, recusandae aut a minus illum! A repellendus ex, quibusdam tempora excepturi blanditiis! Architecto ipsam illum possimus dolorem sint omnis placeat, repudiandae voluptas?</p>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        .col-lg-
+                    </div>
+
+                </div> -->
+                <!-- ending Fourth-section -->
+
+                <!-- starting fifth section -->
+                <div class="fifth-section mt-5" id="contact">
+                    <div class="container">
+                        <div class="row ">
+                            <div class="col-12 text-center">
+                                <p class="subtitle">Get in touch with Me</p>
+                                <h1 class="text-light">Are you ready to work together?</h1>
+                                <p class="text py-3">Let's start a Project! Hire Me</p>
+                            </div>
+                        </div>
+                        <div class="row contact-details">
+                            <div class="col-md-5 text-light justify-content-between align-items-center">
+                                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+                                    temporibus illum eligendi laboriosam adipisci necessitatibus eos eaque assumenda
+                                    enim officiis.</p>
+                                <p>
+                                    <img class="image text-light" src="./image/phone-call.png" alt="Phone">
+                                    ......................
+                                </p>
+                                <p>
+                                    <img class="image text-light" src="./image/email.png" alt="Email">
+                                    <span>anushashrestha7890@gmail.com</span>
+                                </p>
+                                <p>
+                                    <img class="img-fluid image" src="./image/location.png" alt="Location">
+                                    <span>Balkot, Bhaktapur</span>
+                                </p>
+                            </div>
+                            <div class="col-md-7">
+                                <div class="form form-control">
+                                    <label class="font1 mt-3" for="Name">Name</label>
+                                    <input class="w-100 mb-3" type="text" placeholder="Enter your name">
+                                    <label class="font1" for="Name">Email</label>
+                                    <input class="w-100 mb-3" type="text" placeholder="Enter your email">
+                                    <label class="font1" for="Name">Subject</label>
+                                    <input class="w-100 mb-3" type="text" placeholder="Enter your subject">
+                                    <label class="font1" for="Name">Message</label><br>
+                                    <textarea name="message" id="" class="w-100 h-100" placeholder="Message"></textarea>
+                                    <button class="mt-3 btn">
+                                        Send Message
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <!-- ending fifth section -->
+
+                <!-- footer section -->
+                <div>
+                    <footer class="text-light rounded-2 mt-5 mb-3 text-center">
+                        &copy; <span>2022 I, Portfolio. All rights reserved </span>
+                    </footer>
+                </div>
+
+                <!-- bootstraps js file -->
+                <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+                    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+                    crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+                    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+                    crossorigin="anonymous"></script>
+                <!-- custom js file -->
+                <script src="./js/script.js"></script>
+
+
+</body>
+
+</html>

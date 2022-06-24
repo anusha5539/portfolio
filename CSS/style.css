@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Comforter+Brush&family=Dosis:wght@200;300&family=M+PLUS+Rounded+1c:wght@100&family=Poppins:ital,wght@0,300;1,700&family=Roboto:wght@100&family=Zen+Kaku+Gothic+Antique:wght@300&display=swap');
+
+*{
+    padding:0px;
+    margin:0px;
+}
+
+:root{
+    --primary-color:rgb(158, 16, 75);
+    --secondary-color:rgb(8, 8, 8);
+    --background:rgb(2, 2, 2);
+    --gradient-color:linear-gradient(-224deg, rgb(158, 16, 75) 0,blue 100%);
+    --gradient-text:linear-gradient(120deg,blue 20.68%,purple 30.56%,rgb(216, 23, 168));
+    --font-family:'poppins','sans-serif';
+    --color:white;
+    --text-color:rgb(124, 121, 121);
+}
+
+body{
+    font-family:var(--font-family) ;
+    background-color:var(--secondary-color);
+}
+/* header part */
+a{
+    text-decoration: none;
+}
+.image{
+    height:40px;
+    width:40px;
+}
+.navbar-brand{
+    color: var(--color);
+    font-size:30px;
+    padding-left:100px;
+} 
+.halfpart{
+    color:var(--primary-color);
+}
+.navs:hover{
+    background-color: var(--primary-color);
+    color:var(--color);
+    border-radius:40px ;
+}
+.navbar-toggler-icon{
+    background-color: bisque;
+}
+
+.main-btn{
+    display:inline-block;
+    border-radius: 50px;
+    padding: 10px 30px;
+    border:1px solid rgb(201, 196, 196);
+    transition:all .4s ease-in-out;
+    background-color: transparent;
+    font-weight:500;
+    font-size:14px;
+    letter-spacing:2px;
+}
+.main-btn:hover{
+    background-color:var(--primary-color);
+    border-color:var(--color);
+    color:var(--secondary-color);
+
+}
+/* ending header part */
+
+/* starting banner part */
+.head{
+    font-size: 25px;
+    color: var(--third-color);
+}
+.font{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.par{
+    color: var(--primary-color);
+}
+/* ending banner part */
+
+
+/* starting second section */
+.second-section{
+    margin-top:100px;
+}
+.img1{
+    height:40rem;
+}
+.subtitle{
+    color: var(--primary-color);
+}
+ul.nav-pills{
+    border:1px var(--text-color) solid;
+    border-radius:50px;
+}
+.second-section ul li .nav-link{
+    border-radius:50px;
+    font-size:15px;
+    font-weight:bold;
+    transition:all 0.45s ease;
+    display:inline-block;
+    color:var(--text-color);
+}
+.second-section .para{
+    color:var(--text-color);
+
+}
+.second-section ul li .nav-link.active{
+    background-color: var(--primary-color);
+}
+
+.second-section ul li .nav-link:hover{
+    background-color:var(--primary-color);
+    color:var(--color);
+}
+.second-section .single-progress{
+    position:relative;
+    overflow:hidden;
+    margin-top: 30px;
+}
+.second-section .single-progress h6{
+   text-align: left;
+   color: var(--text-color);
+}
+
+.second-section .single-progress .progress{
+    height:4px;
+    border-radius:4px;
+    background-color:var(--color);
+    overflow:visible;
+}
+.second-section .single-progress .progress-bar{
+    background-color: var(--primary-color);
+}
+.second-section .single-progress .label{
+    position:absolute;
+    top :0;
+    right:0;
+    font-size:15px;
+    color: var(--text-color);
+}
+.second-section .tab-pane h3{
+    color:var(--text-color);
+}
+.second-section .tab-pane p{
+    color:var(--text-color);
+
+} 
+/* ending second section */
+
+/* starting third section */
+.third-section .text{
+    color:var(--text-color);
+}
+.third-section .card{
+    background-color: blue;
+    cursor:pointer;
+    transition:transform 0.65s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    box-shadow: 0.65s cubic-bezier(0.05);
+    border:2px var(--secondary-color) solid;
+}
+/*ending third section */
+
+
+/* starting fifth section */
+.contact-details{
+    margin-top: 50px;
+}
+.font1{
+    font-size: 20px;
+    font-weight: bold;
+}
+.fifth-section .btn{
+    background-color: rgb(228, 66, 120);
+    justify-content: right;
+}
+/* ending fifth section */
+
+
